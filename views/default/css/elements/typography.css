@@ -31,16 +31,27 @@ ol, ul {
   list-style: none;
 }
 
+
+
 .elgg-heading-site, .elgg-heading-site:hover {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
   float: left;
   color: white;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /*font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-family: 'Righteous', cursive;
   font-weight: normal;
   font-size: 2.5rem;
   padding: 1.25rem;
+  text-shadow: 1px 1px 2px #000;
+}
+.elgg-heading-site:first-letter{
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-top: 14px;
+  font-family: 'Bubblegum Sans', cursive;
+  color: #A82A2A;
 }
 
 .elgg-heading-main, .elgg-heading-main:hover {
